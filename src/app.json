@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/books/main",
+    "pages/my/main"    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小小书店",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000",
+    "backgroundColor": "#000",
+    "selectedColor": "#C6AA76",
+    "borderStyle": "white",
+    "list": [{
+      "text": "",
+      "pagePath": "pages/books/main",
+      "iconPath": "static/tabs/home.png",
+      "selectedIconPath": "static/tabs/home-selected.png"
+    }, {
+      "text": "",
+      "pagePath": "pages/my/main",
+      "iconPath": "static/tabs/my.png",
+      "selectedIconPath": "static/tabs/my-selected.png"
+    }],    
+    "position": "bottom"    
+  }
+}
