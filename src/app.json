@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/books/main",
-    "pages/my/main"    
+    "pages/my/main",
+    "pages/detail/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
